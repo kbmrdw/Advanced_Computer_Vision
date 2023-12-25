@@ -11,9 +11,14 @@ Tìm kiếm ảnh theo nội dung (Content Based Images Retrieval - CBIR) hay tr
   - **Database:** chiếm 9/10 tổng số ảnh => có tổng 900 ảnh với 90 ảnh trên mỗi nhóm.
   - **Query:** chiếm 1/10 tổng số ảnh => có tổng 100 ảnh với 10 ảnh trên mỗi nhóm.
 
-###
-
-
+### Pipeline
+- Load database (train/test/val)
+- Tiền xử lý
+- Trích xuất đặc trưng -> vector đặc trưng
+- Gom cụm
+- Đánh giá
+- Lưu lại
+- Kiểm thử
 
 ## Phương pháp trích xuất đặc trưng
 - Color Histogram
